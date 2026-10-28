@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Kanto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Panel de l'Equip (Sticky a dalt) -->
+    <section id="seccio-equip">
+        <h2>🎒 El Teu Equip (Màx 6)</h2>
+        <ul id="contenidor-equip"></ul>
+    </section>
+
+    <!-- Cercador -->
+    <div class="cercador-box">
+        <input type="text" id="input-cercador" placeholder="Nom o ID (ex: pikachu, 25)">
+        <button id="btn-cercar">🔍 Cercar</button>
+    </div>
+
+    <!-- Monitor de Detalls -->
+    <div id="caja-detalls"></div>
+
+    <!-- Llista dels 151 -->
+    <section id="seccio-llista">
+        <h2>📋 Pokédex de Kanto (151)</h2>
+        <ul id="lista-kanto"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
